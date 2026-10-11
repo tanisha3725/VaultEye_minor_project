@@ -50,6 +50,42 @@ The intention is to prevent a potentially unsafe transaction from proceeding whi
 
 The ATM interface and backend monitoring interface run as separate components. This design separates the customer-facing transaction workflow from security monitoring and helps demonstrate a modular system architecture.
 
+## Screenshots and Demonstration
+
+The following screenshots demonstrate the ATM interface, backend security monitoring, and selected authentication and risk-alert scenarios implemented in the VaultEye minor-project prototype.
+
+### ATM and Backend Overview
+
+The ATM interface and backend monitoring interface are displayed side by side for demonstration purposes in the minor-project version.
+
+![VaultEye ATM and Backend Overview](screenshots/atm-backend-overview.jpeg)
+
+### Backend Risk Monitoring
+
+The backend displays session information, facial emotion indicators, keystroke behaviour, PIN type, a combined risk score, and security-related events.
+
+![VaultEye Backend Risk Monitoring](screenshots/backend-risk-monitor.jpeg)
+
+### Duress PIN Alert
+
+This screenshot demonstrates the backend's response to a duress-PIN scenario, including a critical-risk indication and a silent-alert status.
+
+![VaultEye Duress PIN Alert](screenshots/duress-pin-alert.jpeg)
+
+### ATM-Side Security Response
+
+The ATM interface displays a cash-dispenser-unavailable message during the demonstrated security-response scenario.
+
+![VaultEye ATM Security Response](screenshots/atm-security-response.jpeg)
+
+### Cardless Authentication
+
+The cardless transaction workflow includes registered mobile number entry and OTP verification.
+
+![VaultEye Mobile Number Entry](screenshots/cardless-mobile-entry.jpeg)
+
+![VaultEye OTP Verification](screenshots/otp-verification.jpeg)
+
 
 ## Project Objectives
 1. To develop a backend monitoring system for real time evaluation
@@ -191,6 +227,8 @@ Follow the on-screen instructions to interact with the simulated ATM and monitor
 * **Programme:** B.Tech in Computer Science and Engineering
 * **Semester:** 6th Semester
 * **Project Period:** January–June 2026
+* **Project Nature:** Academic team project
+* **College Name:** Guru Nanak Dev Engineering College, Ludhiana. 
 
 ## Future Scope
 
